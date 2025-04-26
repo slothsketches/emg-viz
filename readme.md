@@ -9,7 +9,7 @@ This project takes EMG data measurements from <a href="https://www.dfrobot.com/p
 3. Butterworth Bandpass Filter
 4. Median Filtering
 
-> **Note**
+> [!WARNING]
 > 
 > The EMG sensor used is **not** a medical device (as noted by DFRobot) and is subjected to background disturbances. We also make assumption that the data is spaced by about 370 milliseconds as the Python date time measurements may be unreliable during serial input monitoring.
 
